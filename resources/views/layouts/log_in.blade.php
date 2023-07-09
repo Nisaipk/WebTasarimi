@@ -14,7 +14,7 @@
             TC Kimlik No : <input placeholder=""><br>
             Şifre : <input placeholder="">
             <br><br>
-            <a href=""><button id="btn-login">Giriş Yap</button> </a>
+            <a href="{{route('anasayfa1')}}"><button id="btn-login">Giriş Yap</button> </a>
             <a href=""> <button id="btn-forgot">Şifremi Unuttum</button> </a>
 
         </div>
@@ -25,7 +25,7 @@
             TC Kimlik No : <input placeholder=""> <br>
             Şifre        : <input placeholder="">
             <br><br>
-            <a href=""><button id="btn-login">Giriş Yap</button> </a>
+            <a href="{{route('anasayfa2')}}"><button id="btn-login">Giriş Yap</button> </a>
             <a href=""> <button id="btn-forgot">Şifremi Unuttum</button> </a>
 
         </div>
