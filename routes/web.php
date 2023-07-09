@@ -14,4 +14,8 @@ use App\Http\Controllers\BooksController;
 |
 */
 
-Route::get('/add' , [BooksController::class, 'add']);
+
+Route::get('/', function () {
+
+    return view('layouts.anasayfa');
+});
