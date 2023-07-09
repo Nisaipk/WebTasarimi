@@ -27,3 +27,10 @@ Route::get('/comments', function () {
 
     return view('layouts.comments');
 })->name('comments');
+
+Route::get('/login', function () {
+
+    return view('layouts.log_in');
+})->name('giris');
+
+

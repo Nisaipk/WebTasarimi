@@ -15,7 +15,7 @@
     <header class="d-flex flex-wrap align-items-center py-3 mb-4 border-bottom">
         <div class="col-md-3 mb-2 mb-md-0">
             <p style="font-size: 150%"> <b>Kütüphane Otomasyonu</b> </p>
-            </a>
+
 
 
         </div>
@@ -27,8 +27,8 @@
         </ul>
 
         <div class="col-md-3 text-end">
-            <button type="button" class="btn btn-outline-primary me-2">Login</button>
-            <button type="button" class="btn btn-primary">Sign-up</button>
+          <a href="{{route('giris')}}"> <button type="button" class="btn btn-outline-primary me-2">Login</button> </a>
+          <a href=""> <button type="button" class="btn btn-primary">Sign-up</button> </a>
         </div>
     </header>
 </div>

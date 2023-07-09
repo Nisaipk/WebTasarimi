@@ -14,6 +14,7 @@
         <thead>
         <tr>
             <th scope="col">ID</th>
+            <th scope="col">ISBN</th>
             <th scope="col">Kitap Adı</th>
             <th scope="col">Yazar Adı</th>
             <th scope="col">Yayınlayan</th>
@@ -42,4 +43,8 @@
     </table>
 
 
+@endsection
+
+@section('footer')
+    <br><br><br>
 @endsection
