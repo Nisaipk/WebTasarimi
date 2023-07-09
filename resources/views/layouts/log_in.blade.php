@@ -18,6 +18,17 @@
             <a href=""> <button id="btn-forgot">Şifremi Unuttum</button> </a>
 
         </div>
+        <br><br>
+        <div class="login-box">
+            <h2 class="login-text">Öğrenci Girişi</h2>
+            <br>
+            <input placeholder="TC Kimlik No">
+            <input placeholder="Şifre">
+            <br><br>
+            <a href=""><button id="btn-login">Giriş Yap</button> </a>
+            <a href=""> <button id="btn-forgot">Şifremi Unuttum</button> </a>
+
+        </div>
     </div>
 
 @endsection
