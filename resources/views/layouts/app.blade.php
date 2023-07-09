@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <br>
     <title>Kütüphane Otomasyonu | @yield('title')</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 </head>
@@ -22,7 +23,7 @@
         <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
             <li><a href="{{route('anasayfa')}}" class="nav-link px-2 link-secondary">Anasayfa</a></li>
             <li><a href="{{route('communication')}}" class="nav-link px-2">İletişim</a></li>
-            <li><a href="" class="nav-link px-2">Görüş ve Önerileriniz</a></li>
+            <li><a href="{{route('comments')}}" class="nav-link px-2">Görüş ve Önerileriniz</a></li>
         </ul>
 
         <div class="col-md-3 text-end">

@@ -6,7 +6,7 @@
 
 @section('content')
 
-    <br><br><br><br><br>
+    <br><br><br>
     <h1>İLETİŞİM</h1>
 
     <table>
@@ -53,7 +53,7 @@
 @endsection
 
 @section('footer')
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 @endsection
 

@@ -19,5 +19,11 @@ Route::get('/anasayfa', [BooksController::class , 'read'])->name('anasayfa');
 
 Route::get('/communication', function () {
 
-    return view('layouts.comments');
+    return view('layouts.communication');
 })->name('communication');
+
+
+Route::get('/comments', function () {
+
+    return view('layouts.comments');
+})->name('comments');
