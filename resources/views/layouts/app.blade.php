@@ -28,7 +28,7 @@
 
         <div class="col-md-3 text-end">
           <a href="{{route('giris')}}"> <button type="button" class="btn btn-outline-primary me-2">Login</button> </a>
-          <a href=""> <button type="button" class="btn btn-primary">Sign-up</button> </a>
+          <a href="{{route('sign_up')}}"> <button type="button" class="btn btn-primary">Sign-up</button> </a>
         </div>
     </header>
 </div>

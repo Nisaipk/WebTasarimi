@@ -14,7 +14,7 @@ use App\Http\Controllers\BooksController;
 |
 */
 
-
+Route::redirect('/', '/anasayfa');
 Route::get('/anasayfa', [BooksController::class , 'read'])->name('anasayfa');
 
 Route::get('/communication', function () {
@@ -33,4 +33,8 @@ Route::get('/login', function () {
     return view('layouts.log_in');
 })->name('giris');
 
+Route::get('/sign_up', function () {
+
+    return view('layouts.sign_up');
+})->name('sign_up');
 

@@ -11,8 +11,8 @@
         <div class="login-box">
             <h2 class="login-text">Görevli Girişi</h2>
             <br>
-            <input placeholder="TC Kimlik No">
-            <input placeholder="Şifre">
+            TC Kimlik No : <input placeholder=""><br>
+            Şifre : <input placeholder="">
             <br><br>
             <a href=""><button id="btn-login">Giriş Yap</button> </a>
             <a href=""> <button id="btn-forgot">Şifremi Unuttum</button> </a>
@@ -22,8 +22,8 @@
         <div class="login-box">
             <h2 class="login-text">Öğrenci Girişi</h2>
             <br>
-            <input placeholder="TC Kimlik No">
-            <input placeholder="Şifre">
+            TC Kimlik No : <input placeholder=""> <br>
+            Şifre        : <input placeholder="">
             <br><br>
             <a href=""><button id="btn-login">Giriş Yap</button> </a>
             <a href=""> <button id="btn-forgot">Şifremi Unuttum</button> </a>
