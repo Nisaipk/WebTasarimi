@@ -15,6 +15,9 @@ use App\Http\Controllers\BooksController;
 */
 
 
-Route::get('/anasayfa', [BooksController::class , 'read']);
+Route::get('/anasayfa', [BooksController::class , 'read'])->name('anasayfa');
 
+Route::get('/comments', function () {
 
+    return view('layouts.comments');
+})->name('comments');
