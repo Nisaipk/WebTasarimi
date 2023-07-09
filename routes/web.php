@@ -15,7 +15,6 @@ use App\Http\Controllers\BooksController;
 */
 
 
-Route::get('/', function () {
+Route::get('/anasayfa', [BooksController::class , 'read']);
 
-    return view('layouts.anasayfa');
-});
+

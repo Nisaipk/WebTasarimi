@@ -23,4 +23,10 @@ class BooksController extends Controller
 
         return "add fonksiyonu";
     }
+
+    public function read() {
+
+        $books = Books::query()->get();
+        return view('layouts.anasayfa' , compact('books'));
+    }
 }

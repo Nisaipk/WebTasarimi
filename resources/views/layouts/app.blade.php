@@ -20,9 +20,9 @@
         </div>
 
         <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-            <li><a href="#" class="nav-link px-2">Anasayfa</a></li>
-            <li><a href="#" class="nav-link px-2">İletişim</a></li>
-            <li><a href="#" class="nav-link px-2">Görüş ve Önerileriniz</a></li>
+            <li><a href="" class="nav-link px-2 link-secondary">Anasayfa</a></li>
+            <li><a href="" class="nav-link px-2">İletişim</a></li>
+            <li><a href="" class="nav-link px-2">Görüş ve Önerileriniz</a></li>
         </ul>
 
         <div class="col-md-3 text-end">
